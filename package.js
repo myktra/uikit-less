@@ -140,9 +140,9 @@ Package.onUse(function(api) {
     'assets/less/core/contrast.less',
     'assets/less/core/print.less',
     
-    'uikit.less'
+    'uikit.import.less'
     
-  ], 'server');
+  ], 'client', { isImport: true });
   
   api.addFiles([
     'assets/js/uikit.js',
